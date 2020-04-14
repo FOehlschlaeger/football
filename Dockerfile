@@ -2,6 +2,8 @@
 
 # new line of code in master and new line in file of merge branch does not matter which line, changes in entire file matter
 
+# here is a new line of code, in branch as well in master
+
 # Fix einfügen
 
 ARG DOCKER_BASE
