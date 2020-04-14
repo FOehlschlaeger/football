@@ -2,6 +2,8 @@
 
 # new line of code in master and new line in file of merge branch does not matter which line, changes in entire file matter
 
+# here is a new line of code, in branch as well in master
+
 # Fix einfügen
 
 ARG DOCKER_BASE
@@ -22,3 +24,6 @@ RUN pip3 install git+https://github.com/openai/baselines.git@master
 COPY . /gfootball
 RUN cd /gfootball && pip3 install .
 WORKDIR '/gfootball'
+
+
+# here is a new line of code, only in branch
